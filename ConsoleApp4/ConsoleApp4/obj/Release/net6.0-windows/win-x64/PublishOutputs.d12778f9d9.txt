@@ -1,0 +1,2 @@
+C:\Users\jj112\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\net6.0-windows\win-x64\publish\ConsoleApp4.pdb
+C:\Users\jj112\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\net6.0-windows\win-x64\publish\ConsoleApp4.exe

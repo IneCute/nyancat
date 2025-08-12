@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="00.png" />
+    <EmbeddedResource Include="01.png" />
+    <EmbeddedResource Include="02.png" />
+    <EmbeddedResource Include="03.png" />
+    <EmbeddedResource Include="04.png" />
+    <EmbeddedResource Include="05.png" />
+    <EmbeddedResource Include="06.png" />
+    <EmbeddedResource Include="07.png" />
+    <EmbeddedResource Include="08.png" />
+    <EmbeddedResource Include="09.png" />
+    <EmbeddedResource Include="10.png" />
+    <EmbeddedResource Include="11.png" />
+    <EmbeddedResource Include="12.png" />
+    <EmbeddedResource Include="nyan.mid" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
